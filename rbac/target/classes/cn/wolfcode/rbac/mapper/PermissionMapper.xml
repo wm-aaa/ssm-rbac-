@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wolfcode.rbac.mapper.PermissionMapper">
+  <resultMap id="BaseResultMap" type="cn.wolfcode.rbac.domain.Permission">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="expression" jdbcType="VARCHAR" property="expression" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from permission
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyProperty="id" parameterType="cn.wolfcode.rbac.domain.Permission" useGeneratedKeys="true">
+    insert into permission (name, expression)
+    values (#{name,jdbcType=VARCHAR}, #{expression,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="cn.wolfcode.rbac.domain.Permission">
+    update permission
+    set name = #{name,jdbcType=VARCHAR},
+      expression = #{expression,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, name, expression
+    from permission
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, name, expression
+    from permission
+  </select>
+
+  <select id="pagForCount" resultType="java.lang.Integer">
+    select  count(*) from permission;
+  </select>
+  <select id="pagForList" resultType="cn.wolfcode.rbac.domain.Permission">
+    select *
+    from permission
+    limit #{start},#{pageSize}
+  </select>
+    <select id="selectExpressionsByEmpId" resultType="java.lang.String">
+      SELECT DISTINCT p.expression
+      FROM permission p
+      LEFT JOIN role_permission rp ON p.id=rp.permission_id
+      LEFT JOIN employee_role er ON rp.role_id = er.role_id
+      WHERE er.employee_id = #{id}
+    </select>
+</mapper>

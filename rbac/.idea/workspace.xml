@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cn.wolfcode.rbac:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ae221d9-7f0e-4d85-9ea3-d7480e0a2463" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/rbac?serverTimezone = GMT" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/rbac?serverTimezone = GMT" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/rbac?serverTimezone = GMT" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="rbac: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/interceptor/SecurityInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/page_plus.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/RequiredPermission.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/DepartmentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/interceptor/CheckLoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="13" selection-start-line="12" selection-start-column="7" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Employee</find>
+      <find>input</find>
+      <find>Role</find>
+      <find>rermission</find>
+      <find>.insert(permission);</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Permision</replace>
+      <replace>permission</replace>
+    </replaceStrings>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/test/cn/wolfcode/rbac/service/test/EmployeeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/QueryObject.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/PageResuilt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/DepartementService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/DepartmentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/EmployeeQueryObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/DepartmentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IEmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/LogoutController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/Permision.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/DepartmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/rEQUIREDpERMISSION.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/RequiredPermission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/PermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/interceptor/CheckLoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/nopermission.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/interceptor/SecurityInterceptor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.6.1\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cn.wolfcode.rbac" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cn.wolfcode.rbac" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cn.wolfcode.rbac" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cn.wolfcode.rbac" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
+    <option name="y" value="20" />
+    <option name="width" value="1845" />
+    <option name="height" value="1085" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:8.0.11" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cn.wolfcode.rbac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:8.0.11" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-8.0.11.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.20895523" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.wolfcode.rbac.service.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.wolfcode.rbac.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea project\rbac\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.wolfcode.rbac.service.impl" />
+      <recent name="cn.wolfcode.rbac.service" />
+      <recent name="cn.wolfcode.rbac.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.wolfcode.rbac.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.rbac ">
+    <configuration name="EmployeeServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cn.wolfcode.rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.rbac.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wolfcode.rbac.service.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.wolfcode.rbac.service.test.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cn.wolfcode.rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.rbac.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wolfcode.rbac.service.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.wolfcode.rbac.service.test.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.listAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cn.wolfcode.rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.rbac.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wolfcode.rbac.service.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.wolfcode.rbac.service.test.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="listAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.saveOrUpdate" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="cn.wolfcode.rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.rbac.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wolfcode.rbac.service.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.wolfcode.rbac.service.test.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="saveOrUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.testSaveOrUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cn.wolfcode.rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.rbac.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wolfcode.rbac.service.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.wolfcode.rbac.service.test.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="testSaveOrUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rbac " type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.EmployeeServiceTest.saveOrUpdate" />
+      <item itemvalue="JUnit.EmployeeServiceTest.delete" />
+      <item itemvalue="JUnit.EmployeeServiceTest.get" />
+      <item itemvalue="JUnit.EmployeeServiceTest.listAll" />
+      <item itemvalue="JUnit.EmployeeServiceTest.testSaveOrUpdate" />
+      <item itemvalue="Maven.rbac " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeServiceTest.listAll" />
+        <item itemvalue="JUnit.EmployeeServiceTest.get" />
+        <item itemvalue="JUnit.EmployeeServiceTest.delete" />
+        <item itemvalue="JUnit.EmployeeServiceTest.testSaveOrUpdate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ae221d9-7f0e-4d85-9ea3-d7480e0a2463" name="Default Changelist" comment="" />
+      <created>1591061889688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591061889688</updated>
+      <workItem from="1591061894378" duration="201000" />
+      <workItem from="1591062111339" duration="7510000" />
+      <workItem from="1591074124213" duration="15000" />
+      <workItem from="1591074157509" duration="1992000" />
+      <workItem from="1591076172927" duration="3809000" />
+      <workItem from="1591090029435" duration="817000" />
+      <workItem from="1591090869762" duration="6056000" />
+      <workItem from="1591101608051" duration="308000" />
+      <workItem from="1591101942322" duration="6221000" />
+      <workItem from="1591108401619" duration="140000" />
+      <workItem from="1591168534208" duration="18355000" />
+      <workItem from="1591229974015" duration="13693000" />
+      <workItem from="1591272417843" duration="4637000" />
+      <workItem from="1591277797257" duration="4738000" />
+      <workItem from="1591318947832" duration="2286000" />
+      <workItem from="1591362128414" duration="1247000" />
+      <workItem from="1591364436122" duration="8000" />
+      <workItem from="1591364481928" duration="8261000" />
+      <workItem from="1591600639801" duration="593000" />
+      <workItem from="1591619503995" duration="1207000" />
+      <workItem from="1591668698408" duration="3204000" />
+      <workItem from="1591700927003" duration="1000" />
+      <workItem from="1591704055463" duration="1233000" />
+      <workItem from="1591751524712" duration="629000" />
+      <workItem from="1591770251019" duration="1246000" />
+      <workItem from="1591780756205" duration="6399000" />
+      <workItem from="1591799415388" duration="1118000" />
+      <workItem from="1591836603900" duration="3003000" />
+      <workItem from="1591923369151" duration="195000" />
+      <workItem from="1592203992795" duration="1208000" />
+      <workItem from="1592550338482" duration="3313000" />
+      <workItem from="1592613962857" duration="9646000" />
+      <workItem from="1592706079450" duration="17886000" />
+      <workItem from="1592792900623" duration="6577000" />
+      <workItem from="1593260899308" duration="685000" />
+      <workItem from="1593312284270" duration="429000" />
+      <workItem from="1593314297999" duration="36000" />
+      <workItem from="1593329149593" duration="88000" />
+      <workItem from="1593350632196" duration="14000" />
+      <workItem from="1593413859390" duration="149000" />
+      <workItem from="1593488044293" duration="67000" />
+      <workItem from="1593789340220" duration="187000" />
+      <workItem from="1593832491837" duration="44000" />
+      <workItem from="1593834642882" duration="611000" />
+      <workItem from="1593962500931" duration="64000" />
+      <workItem from="1593962738817" duration="26000" />
+      <workItem from="1594108498978" duration="26000" />
+      <workItem from="1594121070463" duration="182000" />
+      <workItem from="1594123483042" duration="428000" />
+      <workItem from="1594272635086" duration="55000" />
+      <workItem from="1594274536995" duration="44000" />
+      <workItem from="1594278386960" duration="22000" />
+      <workItem from="1594364819043" duration="4567000" />
+      <workItem from="1594536978297" duration="9906000" />
+      <workItem from="1594702155867" duration="3125000" />
+      <workItem from="1594735445786" duration="10000" />
+      <workItem from="1595424890202" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="EmployeeServiceTest_testSaveOrUpdate - 2020.06.02 at 20h 59m 05s.xml">
+      <configuration name="EmployeeServiceTest.testSaveOrUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_delete - 2020.06.02 at 21h 14m 51s.xml">
+      <configuration name="EmployeeServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_delete - 2020.06.02 at 21h 17m 07s.xml">
+      <configuration name="EmployeeServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_delete - 2020.06.02 at 21h 20m 48s.xml">
+      <configuration name="EmployeeServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_delete - 2020.06.02 at 21h 22m 00s.xml">
+      <configuration name="EmployeeServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_delete - 2020.06.02 at 21h 28m 54s.xml">
+      <configuration name="EmployeeServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_delete - 2020.06.02 at 21h 31m 27s.xml">
+      <configuration name="EmployeeServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_get - 2020.06.02 at 21h 36m 46s.xml">
+      <configuration name="EmployeeServiceTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_listAll - 2020.06.02 at 21h 38m 40s.xml">
+      <configuration name="EmployeeServiceTest.listAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest_saveOrUpdate - 2020.06.02 at 21h 45m 02s.xml">
+      <configuration name="EmployeeServiceTest.saveOrUpdate" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="158541000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="16" width="1476" height="868" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.264457" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3266399" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19293478" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3206522" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3290938" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.047694754" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3290938" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3290938" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32931727" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.24932976" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24955277" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20241287" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.04724965" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26163724" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21462639" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31860778" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3290938" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.047694754" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3290938" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959871" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.31405622" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32985553" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/Program Files/apache-maven-3.6.1/repository/org/springframework/spring-webmvc/5.1.1.RELEASE/spring-webmvc-5.1.1.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="30" selection-start-line="30" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/link.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" column="96" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2545">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="73" column="72" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="94" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jad1.8/src.zip!/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/PermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/PermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.6.1/repository/org/springframework/spring-webmvc/5.1.1.RELEASE/spring-webmvc-5.1.1.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="95" column="85" selection-start-line="95" selection-start-column="66" selection-end-line="95" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="43" column="73" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/nopermission.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jad1.8/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="190" column="73" selection-start-line="190" selection-start-column="58" selection-end-line="190" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jad1.8/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="91" column="35" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jad1.8/src.zip!/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jad1.8/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/LogoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/interceptor/SecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/RequiredPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/interceptor/CheckLoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="12" selection-start-column="7" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/page_plus.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cn.wolfcode.rbac:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20895523" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (cn.wolfcode.rbac)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20895523" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20895523" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cn.wolfcode.rbac</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20895523" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20895523" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
